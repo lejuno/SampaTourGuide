@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sampa Tour Guide</string>
+    <string name="string_home">Principal</string>
+    <string name="string_Culture">Cultura</string>
+    <string name="string_parks">Parques</string>
+    <string name="string_gastronomy">Gastronomia</string>
+    <string name="string_entertainment">Diversão</string>
+    <string name="string_about">Sobre</string>
+    <string name="string_more">Mais</string>
+</resources>
