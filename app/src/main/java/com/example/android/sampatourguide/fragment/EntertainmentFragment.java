@@ -1,6 +1,5 @@
 package com.example.android.sampatourguide.fragment;
 
-
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -8,12 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.example.android.sampatourguide.Other.Suggestion;
 import com.example.android.sampatourguide.Other.SuggestionAdapter;
 import com.example.android.sampatourguide.R;
-import com.example.android.sampatourguide.support.Culture;
 import com.example.android.sampatourguide.support.Entertainment;
 
 import java.util.ArrayList;
@@ -44,6 +41,6 @@ public class EntertainmentFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         //you can set the title for your toolbar here for different fragments different titles
-        getActivity().setTitle(R.string.string_Culture);
+        getActivity().setTitle(R.string.string_entertainment);
     }
 }

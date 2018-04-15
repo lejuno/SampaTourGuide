@@ -8,12 +8,16 @@ import com.example.android.sampatourguide.R;
 import java.util.List;
 
 /**
- * Created by nomot on 14/04/2018.
+ * Parks class
+ * Used to hold all Parks suggestions
  */
-
 public class Parks {
+    /**
+     * Initialize Parks list
+     * @param list
+     * @param context
+     */
     public static void initParksList(List<Suggestion> list, Context context) {
-
         list.add(new Suggestion(
                 context.getString(R.string.parks_ibirapuera_name),
                 context.getString(R.string.parks_ibirapuera_description),
@@ -79,7 +83,5 @@ public class Parks {
                 null,
                 R.drawable.img_parks_villalobos
         ));
-
-
     }
 }

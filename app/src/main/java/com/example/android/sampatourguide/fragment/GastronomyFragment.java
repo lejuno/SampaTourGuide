@@ -1,7 +1,5 @@
 package com.example.android.sampatourguide.fragment;
 
-
-import android.location.Location;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -9,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.example.android.sampatourguide.Other.Suggestion;
 import com.example.android.sampatourguide.Other.SuggestionAdapter;
@@ -29,7 +26,7 @@ public class GastronomyFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         List<Suggestion> list = new ArrayList<>();
-        Gastronomy.initFoodsList(list, getContext());
+        Gastronomy.initGastronomyList(list, getContext());
 
         SuggestionAdapter adapter = new SuggestionAdapter(getActivity(), -1, list);
         View view = inflater.inflate(R.layout.sugestion_list, container, false);

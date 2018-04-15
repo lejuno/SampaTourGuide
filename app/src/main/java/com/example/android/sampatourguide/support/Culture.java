@@ -8,12 +8,16 @@ import com.example.android.sampatourguide.R;
 import java.util.List;
 
 /**
- * Created by nomot on 14/04/2018.
+ * Culture class
+ * Used to hold all Culture suggestions
  */
-
 public class Culture {
+    /**
+     * Initialize Culture List
+     * @param list
+     * @param context
+     */
     public static void initCultureList(List<Suggestion> list, Context context) {
-
         list.add(new Suggestion(
                 context.getString(R.string.culture_masp_name),
                 context.getString(R.string.culture_masp_description),

@@ -64,6 +64,12 @@ public class SuggestionAdapter extends ArrayAdapter<Suggestion> {
             photoLocationImageView.setVisibility(View.GONE);
         }
 
+        if(currentLocation.hasWebpage()) {
+            webpageTextView.setVisibility(View.VISIBLE);
+        } else {
+            webpageTextView.setVisibility(View.GONE);
+        }
+
         if (currentLocation.hasPrice()) {
             priceLocationTextView.setVisibility(View.VISIBLE);
         } else {

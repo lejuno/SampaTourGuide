@@ -4,9 +4,6 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="string_home">Home</string>
     <string name="string_Culture">Culture</string>
     <string name="string_parks">Parks</string>
@@ -15,159 +12,223 @@
     <string name="string_about">About</string>
     <string name="string_more">More</string>
 
-
-    <string name="food_genki_name">Genki Sushi</string>
-    <string name="food_genki_description">Sushi restaurant. Choose the food on the screen in your
-        table and recieve your order via conveyor belt.</string>
-    <string name="food_genki_address">24-8 Udagawacho, Shibuya, Tokyo 150-0042</string>
-    <string name="food_genki_phone">+81 3-3461-1281</string>
-    <string name="food_genki_schedule">Mo-Fr 11:00–24:00. Sa-Su 10:30-24:00</string>
-    <string name="food_price_two">$$</string>
-    <string name="food_wako_name">Tonkatsu Wako</string>
-    <string name="food_wako_description">Restaurant specialised in Tonkatsu, fried pork cutlet.</string>
-    <string name="food_wako_address">AQUA CiTY ODAIBA, 1 Chome-7-1 Daiba, Minatoku Tokyo 135-0091</string>
-    <string name="food_wako_phone">+81 3-3599-5144</string>
-    <string name="food_wako_schedule">\"Mo-Su 11:00–22:00</string>
-    <string name="food_rokumonya_name">Rokumonya</string>
-    <string name="food_rokumonya_description">Restaurant specialised in Okonomiyaki, a Japanese
-        savoury pancake containing a variety of ingredients.</string>
-    <string name="food_rokumonya_address">3 Chome−35, Shinjuku, Tokyo 160-0022</string>
-    <string name="food_rokumonya_phone">+81 3-3356-6824</string>
-    <string name="food_rokumonya_schedule">Mo-Su 11:30–23:30</string>
-    <string name="food_price_four">$$$$</string>
-    <string name="food_kisoji_name">Kisoji</string>
-    <string name="food_kisoji_description">Restaurant specialised in sukiyaki and shabu shabu.</string>
-    <string name="food_kisoji_address">3-17-5 New Fuji Building, Shinjuku, Tokyo, 160-0022</string>
-    <string name="food_kisoji_phone">+81 3-3226-0667</string>
-    <string name="food_kisoji_schedule">Mo-Su 11:30–14:30 and 17:30-21:30</string>
-    <string name="food_price_one">$</string>
-    <string name="food_gogo_name">Gogo curry</string>
-    <string name="food_gogo_description">Restaurant specialised in Japanese curry with
-        fried meat on top.</string>
-    <string name="food_gogo_address">1 Chome−161, Kanda Sakumacho, Chiyoda, Tokyo, 101-0025</string>
-    <string name="food_gogo_phone">+81 3-5256-5525</string>
-    <string name="food_gogo_schedule">Mo-Su 10:00–22:00</string>
-    <string name="food_tenya_name">Tenya</string>
-    <string name="food_tenya_description">Restaurant specialised in Tendon, a bowl of rice with
-        tempura fried food on top.</string>
-    <string name="food_tenya_address">3 Chome−3−31−2, Shinjuku, Tokyo, 160-0022</string>
-    <string name="food_tenya_phone">+81 3-5269-7216</string>
-    <string name="food_tenya_schedule">Mo-Su 11:00–22:00</string>
-    <string name="food_shibukatsu_name">Shitukatsu</string>
-    <string name="food_shibukatsu_description">Tonkatsu place run by Agetarou\'s family. Agetarou is also known as Tonkatsu DJ.</string>
-    <string name="food_shibukatsu_address">21−6, Udagawacho, Shibuya, Tokyo, 150-0042</string>
-    <string name="food_shibukatsu_phone">+81 3-0000-0000</string>
-    <string name="food_shibukatsu_schedule">Mo-Su 11:00–22:00</string>
+    <string name="string_about_description">This project was developed as module 3 final project.</string>
+    <string name="string_about_description2">I was able to learn about list adapters, fragments, navdrawer.</string>
 
     <string name="culture_masp_name">Museu de Arte de São Paulo</string>
     <string name="culture_masp_description">Masp is one of the most visited touristic places in paulista capital. The space is world wide known to have about eight thousand pieces of art, including important artists (like Portinari, Di Cavalcanti, Rafael, Botticelli, Renoir, Monet, Picasso, Van Gogh, and others ), it has a modern architecture and is situated on Paulista Avenue. The place also receive temporary expositions and own atellier, library and auditorium for presentations.</string>
     <string name="culture_masp_webpage">http://masp.art.br/</string>
     <string name="culture_masp_address">Avenida Paulista, 1578 – Bela Vista</string>
     <string name="culture_masp_price">R$ 25,00</string>
-    <string name="culture_masp_schedule">Tue-Mon 10:00-18:00</string>
-    <string name="culture_masp_phone">(11) 3251-5644</string>
+    <string name="culture_masp_schedule">Tue&#8211;Mon 10:00&#8211;18:00</string>
+    <string name="culture_masp_phone">(11) 3251&#8211;5644</string>
 
     <string name="culture_mac_name">Museu de Arte Contemporânea</string>
     <string name="culture_mac_description">MAC owns items from Modigliani, Pablo Picasso, Alexander Calder, Tarsila do Amaral, Anita Malfatti, and others. Administrated by University of São Paulo (USP), the museum completed 50 yers in 2013. </string>
     <string name="culture_mac_webpage">http://www.mac.usp.br/mac/</string>
     <string name="culture_mac_address">Avenida Pedro Álvares Cabral, 1301</string>
     <string name="culture_mac_price">Free</string>
-    <string name="culture_mac_schedule">Tue-Mon 10:00-18:00</string>
-    <string name="culture_mac_phone">(11) 2648-0254</string>
+    <string name="culture_mac_schedule">Tue&#8211;Mon 10:00&#8211;18:00</string>
+    <string name="culture_mac_phone">(11) 2648&#8211;0254</string>
 
     <string name="culture_imigracao_japonesa_name">Museu Histórico da Imigração Japonesa</string>
     <string name="culture_imigracao_japonesa_description">The museum has more than 97 thousand of items belonging to japanese immigrants, like documents, photos, journals, films, books, frames and kimonos, that tell the history of Japanese immigration in Brazil.</string>
     <string name="culture_imigracao_japonesa_webpage">http://www.museubunkyo.org.br</string>
-    <string name="culture_imigracao_japonesa_address">Rua São Joaquim, 381 - Liberdade</string>
-    <string name="culture_imigracao_japonesa_schedule">Tue-Mon 13:30-17:30</string>
-    <string name="culture_imigracao_japonesa_phone">(11) 3209-5465</string>
+    <string name="culture_imigracao_japonesa_address">Rua São Joaquim, 381 &#8211; Liberdade</string>
+    <string name="culture_imigracao_japonesa_schedule">Tue&#8211;Mon 13:30&#8211;17:30</string>
+    <string name="culture_imigracao_japonesa_phone">(11) 3209&#8211;5465</string>
 
     <string name="culture_lampada_name">Museu da Lâmpada</string>
     <string name="culture_lampada_description">A place that adds knowledge and at the same time holds a significant historical heritage, the lamp museum was inaugurated on April 15, 2012 to delight the public and present the history of the invention that is the symbol of the good idea. The museum has a collection of research, materials and equipment capable of reproducing the timeline, from the discovery of fire, the invention of the lamp, to the development of the most modern lighting technology.</string>
     <string name="culture_lampada_webpage">http://www.museudalampada.com.br</string>
     <string name="culture_lampada_address">Avenida João Pedro Cardoso, 574 – Campo Belo</string>
     <string name="culture_lampada_price">Donation of 1kg of food</string>
-    <string name="culture_lampada_schedule">Mon-Fri 9:00-18:00</string>
-    <string name="culture_lampada_phone">(11) 2898-9358</string>
+    <string name="culture_lampada_schedule">Mon&#8211;Fri 9:00&#8211;18:00</string>
+    <string name="culture_lampada_phone">(11) 2898&#8211;9358</string>
 
     <string name="culture_pinacoteca_name">Pinacoteca do Estado</string>
     <string name="culture_pinacoteca_description">Dated from 1895, the building located in Praça da Luz, designed by Ramos de Azevedo, houses the Pinacoteca do Estado. Founded in 1905, it is the oldest art museum in the city of São Paulo. The ten rooms are occupied with the collection of about one hundred thousand works. Its focus is works of Brazilian production from the nineteenth century to the present day.</string>
     <string name="culture_pinacoteca_webpage">http://www.pinacoteca.org.br</string>
     <string name="culture_pinacoteca_address">Praça da Luz, 2 – Luz – Centro</string>
     <string name="culture_pinacoteca_price">R$ 6</string>
-    <string name="culture_pinacoteca_schedule">Tue-Mon 10:00-18:00</string>
-    <string name="culture_pinacoteca_phone">(11) 3324-1000</string>
+    <string name="culture_pinacoteca_schedule">Tue&#8211;Mon 10:00&#8211;18:00</string>
+    <string name="culture_pinacoteca_phone">(11) 3324&#8211;1000</string>
 
     <string name="parks_ibirapuera_name">Parque Ibirapuera</string>
     <string name="parks_ibirapuera_description">O Parque Ibirapuera é um parque urbano na cidade de São Paulo, Brasil. Ele tem 158ha (390 acres) entre as avenidas Pedro Álvares Cabral, República do Líbano e IV Centenário. O Parque Ibirapuera é o parque mais visitado da America Latina com aproximadamente 14 milhões de visitas em 2017, e é um dos locais mais fotografados do mundo.</string>
     <string name="parks_ibirapuera_webpage">www.parqueibirapuera.org</string>
     <string name="parks_ibirapuera_address">Av. Pedro Álvares Cabral, s/n° – Vila Mariana</string>
-    <string name="parks_ibirapuera_schedule">Daily 5:00-24:00</string>
-    <string name="parks_ibirapuera_phone">(11) 5574-5505</string>
+    <string name="parks_ibirapuera_schedule">Daily 5:00&#8211;24:00</string>
+    <string name="parks_ibirapuera_phone">(11) 5574&#8211;5505</string>
 
     <string name="parks_aclimacao_name">Parque da Aclimação</string>
-    <string name="parks_aclimacao_description">Created at the beginning of the 20th century with the intention of raising dairy cattle, the park - formerly called the Aclimação Garden - was also sought after by families for leisure. Since 1983, faced with threats of loss of the area by real estate growth, residents of the neighborhood joined in a movement to protect the park and in 1986 was made official the tipping of the park by CONDEPHAAT. Three sculptures by Arcangelo Ianelli are distributed in the green park: "White Dance", "The Return" and "Corrupted Form".</string>
+    <string name="parks_aclimacao_description">Created at the beginning of the 20th century with the intention of raising dairy cattle, the park &#8211; formerly called the Aclimação Garden &#8211; was also sought after by families for leisure. Since 1983, faced with threats of loss of the area by real estate growth, residents of the neighborhood joined in a movement to protect the park and in 1986 was made official the tipping of the park by CONDEPHAAT. Three sculptures by Arcangelo Ianelli are distributed in the green park: "White Dance", "The Return" and "Corrupted Form".</string>
     <string name="parks_aclimacao_webpage">www.prefeitura.sp.gov.br/parques</string>
     <string name="parks_aclimacao_address">Rua Muniz de Souza, 1.119 – Aclimação</string>
-    <string name="parks_aclimacao_schedule">Daily 6:00-22:00</string>
-    <string name="parks_aclimacao_phone">(11) 3208-4042</string>
+    <string name="parks_aclimacao_schedule">Daily 6:00&#8211;22:00</string>
+    <string name="parks_aclimacao_phone">(11) 3208&#8211;4042</string>
 
     <string name="parks_carmo_name">Parque do Carmo – Olavo Egydio Setúbal</string>
     <string name="parks_carmo_description">Opened in 1976, Parque do Carmo is 1.5 million m². The forest has about 6,000 trees, including cherry trees and eucalyptus trees, natural lakes and various species of animals. The structure of the museum is complete and the visitor has the Museum of the Environment, amphitheater, gymnastics equipment, soccer fields, cycle path, jogging track, playgrounds, picnic space, barbecue grills, kiosks, Japanese Immigration Monument, Arthur Etzel Nursery and Forest of Reading. Since 1978, the Cherry Festival, which commemorates the flowering of the symbolic tree of Japan, is held here.</string>
     <string name="parks_carmo_webpage">www.prefeitura.sp.gov.br/parques</string>
     <string name="parks_carmo_address">Av. Afonso de Sampaio e Souza, 951 – Itaquera</string>
-    <string name="parks_carmo_schedule">Daily 5:30-18:00</string>
-    <string name="parks_carmo_phone">(11) 2748-0010</string>
+    <string name="parks_carmo_schedule">Daily 5:30&#8211;18:00</string>
+    <string name="parks_carmo_phone">(11) 2748&#8211;0010</string>
 
     <string name="parks_juventude_name">Parque da Juventude</string>
     <string name="parks_juventude_description">The Youth Park has changed the landscape of the North Zone of São Paulo since 2003, replacing the Carandiru Penitentiary Complex with an outdoor leisure and entertainment area. It has a large green area, sports practice facilities, leisure and entertainment areas for people of all ages, canine space and open space for shows and events. The space houses the São Paulo Library, with more than 35 thousand titles, and Acessa São Paulo, a digital inclusion program of the State Government. At the site, historical references of the Carandiru era were maintained.</string>
     <string name="parks_juventude_webpage">www.parquedajuventudesma.blogspot.com.br</string>
     <string name="parks_juventude_address">Av. Zaki Narchi, 1.309 – Carandiru – zona Norte</string>
-    <string name="parks_juventude_schedule">Daily 5:30-18:00</string>
-    <string name="parks_juventude_phone">(11) 2251-2706</string>
+    <string name="parks_juventude_schedule">Daily 5:30&#8211;18:00</string>
+    <string name="parks_juventude_phone">(11) 2251&#8211;2706</string>
 
     <string name="parks_trabalhador_name">Parque Esportivo do Trabalhador</string>
-    <string name="parks_trabalhador_description">One of the best spaces for practicing sports in the state capital is the Worker's Sports Park, in the East zone. Administered by the Municipal Department of Sports, Leisure and Recreation, the park offers a structure for the practice of dozens of activities of the most varied types. The site has 286 thousand square meters of area, divided into three football fields, four volleyball courts, two basketball courts, four sports courts, six tennis courts (two of which are clay courts), a rugby field, four swimming pools, walk, 400 m track, three gymnasiums, playground, a multi-sports gymnasium and a "pipódromo", space specially reserved to fly kites safely.</string>
+    <string name="parks_trabalhador_description">One of the best spaces for practicing sports in the state capital is the Workers Sports Park, in the East zone. Administered by the Municipal Department of Sports, Leisure and Recreation, the park offers a structure for the practice of dozens of activities of the most varied types. The site has 286 thousand square meters of area, divided into three football fields, four volleyball courts, two basketball courts, four sports courts, six tennis courts (two of which are clay courts), a rugby field, four swimming pools, walk, 400 m track, three gymnasiums, playground, a multi&#8211;sports gymnasium and a "pipódromo", space specially reserved to fly kites safely.</string>
     <string name="parks_trabalhador_webpage">www.prefeitura.sp.gov.br/parques</string>
     <string name="parks_trabalhador_address">Rua Canuto de Abreu, s/n° – Tatuapé</string>
-    <string name="parks_trabalhador_schedule">Mon-Fri 6:00-22:00; Sat-Sun 6:00-18:00</string>
-    <string name="parks_trabalhador_phone">(11) 2671-8788</string>
+    <string name="parks_trabalhador_schedule">Mon&#8211;Fri 6:00&#8211;22:00; Sat&#8211;Sun 6:00&#8211;18:00</string>
+    <string name="parks_trabalhador_phone">(11) 2671&#8211;8788</string>
 
-    <string name="parks_villalobos_name">Parque Villa-Lobos</string>
-    <string name="parks_villalobos_description">Located in the Alto dos Pinheiros neighborhood, in the western region of the Capital, Villa-Lobos Park is one of the best outdoor leisure options in the city. The park, which covers an area of 732 thousand m², has a bike path, blocks, soccer fields, playground and forest with Atlantic Forest species. The leisure area also includes gym equipment, jogging track, street basketball tables and an open amphitheater with 750 seats, toilets adapted for the disabled and snack bar. It is estimated that during the week about 8 thousand people pass each day through the Park. At weekends it receives around 50 thousand visitors and 60 thousand holidays.</string>
+    <string name="parks_villalobos_name">Parque Villa&#8211;Lobos</string>
+    <string name="parks_villalobos_description">Located in the Alto dos Pinheiros neighborhood, in the western region of the Capital, Villa&#8211;Lobos Park is one of the best outdoor leisure options in the city. The park, which covers an area of 732 thousand m², has a bike path, blocks, soccer fields, playground and forest with Atlantic Forest species. The leisure area also includes gym equipment, jogging track, street basketball tables and an open amphitheater with 750 seats, toilets adapted for the disabled and snack bar. It is estimated that during the week about 8 thousand people pass each day through the Park. At weekends it receives around 50 thousand visitors and 60 thousand holidays.</string>
     <string name="parks_villalobos_webpage">www.parquevillalobos.sp.gov.br</string>
     <string name="parks_villalobos_address">Av. Professor Fonseca Rodrigues – 2.001 – Alto de Pinheiros</string>
-    <string name="parks_villalobos_schedule">Daily 5:30-19:00</string>
-    <string name="parks_villalobos_phone">(11) 3021-6285</string>
+    <string name="parks_villalobos_schedule">Daily 5:30&#8211;19:00</string>
+    <string name="parks_villalobos_phone">(11) 3021&#8211;6285</string>
 
     <string name="entertainment_igrejinha_name">Igrejinha Bar and Cafe</string>
     <string name="entertainment_igrejinha_description">Opened in 2012, the bar Igrejinha, with unpretentious climate and alternative public, is decorated with Ribbons of Bomfim, antique sofas, rugs and images of saints. Running from Thursday to Sunday, nights at the property are packed with indie rock. Among the drinks served are the traditional cosmopolitan, mojito, gin fizz and caipirinha, in addition to the house specials, such as aphrodite, made with gin, violet flavoring and lemon twist.</string>
     <string name="entertainment_igrejinha_webpage">https://www.igrejinhabar.com.br</string>
-    <string name="entertainment_igrejinha_address">Rua Fernando de Albuquerque, 302 - Consolação</string>
-    <string name="entertainment_igrejinha_schedule">Tue-Mon 16:00-02:00</string>
-    <string name="entertainment_igrejinha_phone">(11) 2769-8794</string>
+    <string name="entertainment_igrejinha_address">Rua Fernando de Albuquerque, 302 &#8211; Consolação</string>
+    <string name="entertainment_igrejinha_schedule">Tue&#8211;Mon 16:00&#8211;02:00</string>
+    <string name="entertainment_igrejinha_phone">(11) 2769&#8211;8794</string>
 
     <string name="entertainment_lereve_name">Le Revê</string>
     <string name="entertainment_lereve_description">Club Le Revê invites its customers to enter a world of magic and dreams. Located where formerly housed a mansion, the club was designed to maintain the construction with characteristics of the twentieth century. The glamorous space has bars on the track, on the top floor and in the cabins, plus headboards with cabinets and interactive DJ booth, which plays house music hits from the 1990s.</string>
     <string name="entertainment_lereve_webpage">http://www.lereveclub.com.br/</string>
     <string name="entertainment_lereve_address">Rua Marques de Paranagua 329</string>
-    <string name="entertainment_lereve_schedule">Fri-Sat 23:00-6:00</string>
-    <string name="entertainment_lereve_phone">(11) 3045-8144</string>
+    <string name="entertainment_lereve_schedule">Fri&#8211;Sat 23:00&#8211;6:00</string>
+    <string name="entertainment_lereve_phone">(11) 3045&#8211;8144</string>
 
     <string name="entertainment_tubaina_name">Tubaina Bar</string>
-    <string name="entertainment_tubaina_description">Trying to please everyone, the Tubaina bar was the first to receive the Sustainable Restaurant Seal: most of the furniture in the place is reused in retro style, in addition to using rainwater for reuse for non-potable purposes. The menu features vegetarian and vegan options, such as the putanesca, penne su sugo, pumpkin moqueca, caponata sandwich with banana chips, bean curd, among others. The beverage menu has more than 20 labels of soft drinks made in cities in the interior of São Paulo, which are used for drinks and soft drinks.</string>
+    <string name="entertainment_tubaina_description">Trying to please everyone, the Tubaina bar was the first to receive the Sustainable Restaurant Seal: most of the furniture in the place is reused in retro style, in addition to using rainwater for reuse for non&#8211;potable purposes. The menu features vegetarian and vegan options, such as the putanesca, penne su sugo, pumpkin moqueca, caponata sandwich with banana chips, bean curd, among others. The beverage menu has more than 20 labels of soft drinks made in cities in the interior of São Paulo, which are used for drinks and soft drinks.</string>
     <string name="entertainment_tubaina_webpage">https://www.tubainabar.com.br/</string>
     <string name="entertainment_tubaina_address">Haddok Lobo, 74</string>
-    <string name="entertainment_tubaina_schedule">Mon-Thu 12:00-15:30  18:00-00:30; Fri-Sat 12:00-2:30; Sun 13:00-23:00</string>
-    <string name="entertainment_tubaina_phone">(11) 3129-4930</string>
+    <string name="entertainment_tubaina_schedule">Mon&#8211;Thu 12:00&#8211;15:30  18:00&#8211;00:30; Fri&#8211;Sat 12:00&#8211;2:30; Sun 13:00&#8211;23:00</string>
+    <string name="entertainment_tubaina_phone">(11) 3129&#8211;4930</string>
 
     <string name="entertainment_carniceria_name">Z Carniceria</string>
     <string name="entertainment_carniceria_description">Mounted where formerly the first butchers shop on Augusta Street was located, the Z Carniceria kept most of the decorative elements of the old slaughterhouse, such as hooks, scales and rails. Complementary with historical street parties, the morbid bar has classic bar food in different versions, as well as draft beer, national and international beers and drinks.</string>
     <string name="entertainment_carniceria_webpage">https://www.facebook.com/zcarniceria</string>
     <string name="entertainment_carniceria_address">Av. Faria Lima 724</string>
-    <string name="entertainment_carniceria_schedule">Wed-Sun 20:00-02:00</string>
-    <string name="entertainment_carniceria_phone">(11) 2936-0934</string>
+    <string name="entertainment_carniceria_schedule">Wed&#8211;Sun 20:00&#8211;02:00</string>
+    <string name="entertainment_carniceria_phone">(11) 2936&#8211;0934</string>
 
+    <string name="entertainment_mono_name">Mono Club</string>
+    <string name="entertainment_mono_description">The Mono Club features retro decor with a lounge at the entrance for those who want to try the snacks on the menu, the slower music that comes out of the speakers installed inside old refrigerators. Just after the corridor, the customer finds the dance floor with video projections.</string>
+    <string name="entertainment_mono_webpage">www.clubmono.com.br</string>
+    <string name="entertainment_mono_address">Rua Augusta, 480</string>
+    <string name="entertainment_mono_schedule">Fri&#8211;Sat 23:00&#8211;6:00</string>
+    <string name="entertainment_mono_phone">(11) 94006&#8211;5040</string>
 
+    <string name="entertainment_rocknrollburger_name">Rock n Roll Burguer</string>
+    <string name="entertainment_rocknrollburger_description">One of the most famous hamburgers in the city, Rock n Roll Burguer has 11 pinball machines and pure rock and roll soundtrack. The menu features different types of hamburgers, some named after rock stars, as well as drinks, beers, juices, milkshakes, among others.</string>
+    <string name="entertainment_rocknrollburger_webpage">http://rocknrollburger.com.br/</string>
+    <string name="entertainment_rocknrollburger_address">Rua Augusta, 538, Consolação</string>
+    <string name="entertainment_rocknrollburger_schedule">Tue&#8211;Thu 12:00&#8211;01:00; Fri&#8211;Sat 12:00&#8211;05:00; Sun 12:00&#8211;24:00</string>
+    <string name="entertainment_rocknrollburger_phone">(11) 3255&#8211;0351</string>
 
+    <string name="gastronomy_mocoto_name">Esquina Mocotó</string>
+    <string name="gastronomy_mocoto_description">Contemporary São Paulo cuisine (and awarded!) Since 2013. The pauliceia revirada by the chef Rodrigo Oliveira and team. Cocktail and wine list equally authoritative and delicious.</string>
+    <string name="gastronomy_mocoto_webpage">http://www.esquinamocoto.com.br</string>
+    <string name="gastronomy_mocoto_address">Av. Nossa Senhora do Loreto, 1108</string>
+    <string name="gastronomy_mocoto_schedule">Tue&#8211;Fri 12:00&#8211;15:00 19:30&#8211;23:00; Sat: 12:00&#8211;15:00 19:30&#8211;23:00; Sun 12:00&#8211;17:00</string>
+    <string name="gastronomy_mocoto_phone">(11) 2949&#8211;7049</string>
+    <string name="gastronomy_mocoto_price">$$$</string>
+
+    <string name="gastronomy_vicolo_name">Vicolo Nostro</string>
+    <string name="gastronomy_vicolo_description">The house features a typical Italian menu consisting of stuffed pasta, soups, risottos, polenta and seafood, as well as a large menu with the best Italian wines. For dessert, the flagship of the Vicolo is the traditional Tiramissú, served in a decorated dish. The low light of the atmosphere gives a romantic air to the restaurant, which has classic decoration and is formed by a small "village", an internal hall with fireplace and several tables in the garden. Vicolo Nostro received the label Ospitalità Italiana, used to classify restaurants in Italy itself that faithfully followed the traditions of the country.</string>
+    <string name="gastronomy_vicolo_webpage">http://www.vicolonostro.com.br</string>
+    <string name="gastronomy_vicolo_address">Rua Jataituba 29</string>
+    <string name="gastronomy_vicolo_schedule">Lunch: Mon&#8211;Fri 12:00&#8211;15:00; SatSun 12:00&#8211;16:30; Dinner: Mon&#8211;Thu 19:00&#8211;24:00, Fri&#8211;Sat 19:00&#8211;01:00</string>
+    <string name="gastronomy_vicolo_phone">(11) 5561&#8211;5287 </string>
+    <string name="gastronomy_vicolo_price">$$$</string>
+
+    <string name="gastronomy_onca_name">BAR DA DONA ONÇA</string>
+    <string name="gastronomy_onca_description">With the title of Best Bar Cuisine, the Dona Onça Bar, the establishment of chefs Janaína Rueda, Jefferson Rueda and Julio César de Toledo Piza, known for serving dishes and snacks from the interior of São Paulo and bohemian gastronomy from São Paulo, receives new dishes.</string>
+    <string name="gastronomy_onca_webpage">http://www.bardadonaonca.com.br</string>
+    <string name="gastronomy_onca_address">Avenida Ipiranga, 200</string>
+    <string name="gastronomy_onca_schedule">Mon&#8211;Wed 12:00&#8211;23:00; Thu&#8211;Sat: 13:00&#8211;24:00; Sun 12:00&#8211;17:00</string>
+    <string name="gastronomy_onca_phone">(11) 3257&#8211;2016 </string>
+    <string name="gastronomy_onca_price">$$$</string>
+
+    <string name="gastronomy_fogochao_name">FOGO DE CHÃO</string>
+    <string name="gastronomy_fogochao_description">With the concern of serving only buffet salad and good cuts of meat, Fogo de Chão maintains its tradition of serving barbecue on the skewer.Before having the first contact with the public, the whole team is trained with the objective of learning everything about the types of meat, cut and acquire knowledge about wines and notions of nutrition. To complete, all the waiters are fluent in English in order to maintain quality in serving the foreign public.</string>
+    <string name="gastronomy_fogochao_webpage">http://www.fogodechao.com.br</string>
+    <string name="gastronomy_fogochao_address">Av. dos Bandeirantes, 538</string>
+    <string name="gastronomy_fogochao_schedule">Mon&#8211;Sat 12:00&#8211;24:00; Sun 12:00&#8211;22:30</string>
+    <string name="gastronomy_fogochao_phone">(11) 5505&#8211;0791 </string>
+    <string name="gastronomy_fogochao_price">$$$</string>
+
+    <string name="gastronomy_fasano_name">Fasano</string>
+    <string name="gastronomy_fasano_description">Located on the ground floor of the Hotel Fasano in São Paulo, Brazils most awarded restaurant is a reference of quality. Since 1982, the Fasano restaurant is committed to harmonizing the palate with the foundations of the Italian tradition. Classical cuisine gains the flavor of the imagination. The house has an unmistakable personality. The environment is at the service of the enjoyment of the table. Its façade refers to the unforgettable landscapes of Tuscany. The attention to detail extends to the hall, which has its floor covered with marble and walls covered with panels of dark and varnished Ipê.The winery, administered by the renowned sommelier Manoel Beato, imposes itself as a decorative element. The bottles are suspended by a metallic structure integrating the decoration of the hall.</string>
+    <string name="gastronomy_fasano_webpage">http://www.fasano.com.br</string>
+    <string name="gastronomy_fasano_address">Rua Vittorio Fasano, 88</string>
+    <string name="gastronomy_fasano_schedule">Mon&#8211;Thu 19:00&#8211;00:30; Fri&#8211;Sat 19:00&#8211;01:00</string>
+    <string name="gastronomy_fasano_phone">(11) 3896&#8211;4000 </string>
+    <string name="gastronomy_fasano_price">$$$$</string>
+
+    <string name="gastronomy_eataly_name">Eataly</string>
+    <string name="gastronomy_eataly_description">The Eataly food market network arrives in São Paulo with its first store in Latin America. With fifteen units in Italy, nine in Japan, two in the United States, one in Dubai and another in Istanbul, the company brought its own concept of how to sell food. In addition to several imported products, the brand focuses on local produce produced by small producers and which are of high quality. Divided into 22 departments, the store has 7 thousand different products and follows the line of selling everything that cooks and cooks everything sold, ensuring not only the freshness of the dishes sold but also offers the possibility of the consumer to buy all the ingredients used and reproduce what you ate on the market at home.</string>
+    <string name="gastronomy_eataly_webpage">http://www.eataly.com.br</string>
+    <string name="gastronomy_eataly_address">Av. Pres.Juscelino Kubitschek, 1489</string>
+    <string name="gastronomy_eataly_schedule">Mon&#8211;Sun 08:00&#8211;24:00</string>
+    <string name="gastronomy_eataly_phone">(11) 3279&#8211;3300</string>
+    <string name="gastronomy_eataly_price">$$$</string>
+
+    <string name="gastronomy_turmamonica_name"> Chácara Turma da Mônica</string>
+    <string name="gastronomy_turmamonica_description">It opened the thematic restaurant of Turma da Mônica in the city. Located in the district of Pinheiros, it counts on ample green space, with different species of plants and a lagoon. The place is a result of the partnership between Chácara Santa Cecilia and Maurício de Sousa. The proposal is a large area with a pleasant environment, not only for children but for adults as well. The characters of Turma da Mônica are present in all spaces, such as Oficina do Cascão, which offers a program of monitored activities, and the Disco Mônica, where they play songs and happen presentations. A curiosity of the place is the Poço dos Desires, located next to the Chico Bento lagoon, where each piece of money is worth a wish, and the amount collected will be donated to non&#8211;governmental charities that help children in need.The restaurant serves special dishes for children, such as French fries, chicken and sandwiches, as well as the traditional à la carte menu, several pizza options and breakfast on Sunday and bank holidays.</string>
+    <string name="gastronomy_turmamonica_webpage">http://chacaraturmadamonica.com.br</string>
+    <string name="gastronomy_turmamonica_address">Rua Ferreira de Araújo, 601</string>
+    <string name="gastronomy_turmamonica_schedule">Lunch: Mon&#8211;Fri 12:00&#8211;15:30, Sat&#8211;Sun 12:00&#8211;16:00; Dinner Thu&#8211;Sun 18:00&#8211;22:00</string>
+    <string name="gastronomy_turmamonica_phone">(11) 3034&#8211;6251 </string>
+    <string name="gastronomy_turmamonica_price">$$</string>
+
+    <string name="gastronomy_cantinapalestra_name">Cantina Palestra</string>
+    <string name="gastronomy_cantinapalestra_description">Now the alviverdes fans have an official meeting place in the city of São Paulo. On November 22nd, in Pompeia, the Cantina Palestra, an official gastronomic network of the Palmeiras Sports Society. The previous night, an idol of the fans was in the pre&#8211;inauguration of the venue: former player Ademir da Guia was present and tasted the delights of the menu, such as the Divino panini, 1947 Fettucine Ossobuco and the dessert Pudim Palestra Itália. I loved the place. Now I come to eat here every day. I just can not eat too much to not get fat, because I still participate in some games with the team master, amused ex&#8211;shirt 10 of the verdade.</string>
+    <string name="gastronomy_cantinapalestra_webpage">http://www.cantinapalestra.com.br</string>
+    <string name="gastronomy_cantinapalestra_address">Avenida Francisco Matarazzo, 1752</string>
+    <string name="gastronomy_cantinapalestra_schedule">Mon&#8211;Sun 11:30&#8211;23:00</string>
+    <string name="gastronomy_cantinapalestra_phone">(11) 2628&#8211;3576 </string>
+    <string name="gastronomy_cantinapalestra_price">$$</string>
+
+    <string name="home_history0_name">São Paulo</string>
+    <string name="home_history0_description">São Paulo is a Brazilian municipality, capital of the state of São Paulo and main financial, corporate and mercantile center of South America.</string>
+
+    <string name="home_history1_name">Globalization</string>
+    <string name="home_history1_description">São Paulo is the most influential Brazilian city in the global scenario, being considered the 14th most globalized city on the planet, receiving the classification of global city alpha, by the Globalization and World Cities Study Group Network (GaWC).</string>
+
+    <string name="home_history2_name">Motto</string>
+    <string name="home_history2_description">The motto of the city, present in its official coat of arms, is Non ducor, duco, Latin phrase that means I am not driven, I lead.</string>
+
+    <string name="home_history3_name">Foundation</string>
+    <string name="home_history3_description">Founded in 1554 by Jesuit priests, the city is world-renowned and exerts significant national and international influence, be it from a cultural, economic or political point of view.</string>
+
+    <string name="home_history4_name">Attractions</string>
+    <string name="home_history4_description">It has important monuments, parks and museums, such as the Latin American Memorial, the Portuguese Language Museum, the Ipiranga Museum, the MASP, the Ibirapuera Park, the São Paulo Botanical Garden and Paulista Avenue, and events of great repercussion , such as the International Art Biennial, the Brazilian Formula 1 Grand Prix, the São Paulo Fashion Week and the LGBT Pride Parade.</string>
+
+    <string name="home_history5_name">Economy</string>
+    <string name="home_history5_description">The municipality has the 10th largest GDP in the world, accounting for 10.7% of the total Brazilian GDP and 36% of the total production of goods and services in the state of São Paulo, being the headquarters of 63% of the multinationals established in Brazil , in addition to being responsible for 28% of all national scientific production (2005) and for more than 40% of patents produced in the country. </string>
+
+    <string name="home_history6_name">Finnancial</string>
+    <string name="home_history6_description">The city is also home to the São Paulo Stock Exchange, BMF Bovespa (BM  FBovespa), the second largest stock exchange in the world at market value. </string>
+
+    <string name="home_history7_name">Architecture</string>
+    <string name="home_history7_description">São Paulo also concentrates many of the tallest buildings in Brazil, such as the Mirante do Vale buildings, Italy, Altino Arantes, the North Tower, among others.</string>
+
+    <string name="home_history8_name">Population</string>
+    <string name="home_history8_description">São Paulo is the 7th most populous city on the planet and its metropolitan region, with around 20 million inhabitants, is the 8th largest urban agglomeration in the world.  The city also has a cosmopolitan character, and in 2016, it had native inhabitants of 196 different countries. </string>
+
+    <string name="home_history9_name">Pizza</string>
+    <string name="home_history9_description">With 6 thousand pizzerias, São Paulo is already the second city where most pizza is eaten in the world. It only loses to New York, where the presence of Italians is also very strong. The kilns produce on an industrial scale: 1 million pizzas per day, an average of 40 thousand per hour. The flavor that paulistanos prefer is the traditional mozzarella. Then comes calabrese. The third most successful is the Portuguese.</string>
 </resources>

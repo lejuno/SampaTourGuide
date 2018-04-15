@@ -8,10 +8,15 @@ import com.example.android.sampatourguide.R;
 import java.util.List;
 
 /**
- * Created by nomot on 14/04/2018.
+ * Entertainment class
+ * Used to hold all Entertainment suggestions
  */
-
 public class Entertainment {
+    /**
+     * Initialize Entertainment list
+     * @param list
+     * @param context
+     */
     public static void initEntertainmentList(List<Suggestion> list, Context context) {
         list.add(new Suggestion(
                 context.getString(R.string.entertainment_igrejinha_name),
@@ -55,6 +60,28 @@ public class Entertainment {
                 context.getString(R.string.entertainment_carniceria_schedule),
                 null,
                 R.drawable.img_entertainment_carniceria
+        ));
+
+        list.add(new Suggestion(
+                context.getString(R.string.entertainment_mono_name),
+                context.getString(R.string.entertainment_mono_description),
+                context.getString(R.string.entertainment_mono_webpage),
+                context.getString(R.string.entertainment_mono_address),
+                context.getString(R.string.entertainment_mono_phone),
+                context.getString(R.string.entertainment_mono_schedule),
+                null,
+                R.drawable.img_entertainment_mono
+        ));
+
+        list.add(new Suggestion(
+                context.getString(R.string.entertainment_rocknrollburger_name),
+                context.getString(R.string.entertainment_rocknrollburger_description),
+                context.getString(R.string.entertainment_rocknrollburger_webpage),
+                context.getString(R.string.entertainment_rocknrollburger_address),
+                context.getString(R.string.entertainment_rocknrollburger_phone),
+                context.getString(R.string.entertainment_rocknrollburger_schedule),
+                null,
+                R.drawable.img_entertainment_rocknrollburger
         ));
     }
 }
