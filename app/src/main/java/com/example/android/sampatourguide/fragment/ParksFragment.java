@@ -17,10 +17,26 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A simple {@link Fragment} subclass.
+ * ParksFragment
+ * Holds Park suggestion list
  */
 public class ParksFragment extends Fragment {
+    /**
+     * Constructor
+     */
+    public ParksFragment() {
+        // Required empty public constructor
+    }
 
+    /**
+     * onCreateView
+     * Initialize Parks List and return the view with parks list.
+     *
+     * @param inflater
+     * @param container
+     * @param savedInstanceState
+     * @return
+     */
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -37,6 +53,12 @@ public class ParksFragment extends Fragment {
         return view;
     }
 
+    /**
+     * Used to set title text
+     *
+     * @param view
+     * @param savedInstanceState
+     */
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);

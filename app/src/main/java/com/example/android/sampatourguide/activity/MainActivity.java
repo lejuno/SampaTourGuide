@@ -19,6 +19,10 @@ import com.example.android.sampatourguide.fragment.GastronomyFragment;
 import com.example.android.sampatourguide.fragment.HomeFragment;
 import com.example.android.sampatourguide.fragment.ParksFragment;
 
+/**
+ * MainActivity
+ * Where everything beggins
+ */
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -51,6 +55,9 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
     }
 
+    /**
+     * If Navigation Drawer is displayed, close it instead of leaving application
+     */
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -61,6 +68,11 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    /**
+     * Process the item selected from Navication Drawer
+     * @param item
+     * @return
+     */
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {

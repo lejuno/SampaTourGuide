@@ -13,18 +13,33 @@ import com.example.android.sampatourguide.R;
 import java.util.List;
 
 /**
- * Created by nomot on 14/04/2018.
+ * Suggestion adapter to support on adding a card view for each suggestion
  */
 public class SuggestionAdapter extends ArrayAdapter<Suggestion> {
 
+    /**
+     * Constructor
+     *
+     * @param context
+     * @param resources
+     * @param suggestionsList
+     */
     public SuggestionAdapter(Context context, int resources, List<Suggestion> suggestionsList) {
         super(context, 0, suggestionsList);
     }
 
+    /**
+     * getView()
+     * Build each suggestion as a card view.
+     * @param position
+     * @param convertView
+     * @param parent
+     * @return
+     */
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        final Suggestion currentLocation = getItem(position);
+        final Suggestion currentSuggestion = getItem(position);
         View listItemView = convertView;
 
         if (listItemView == null) {
@@ -32,68 +47,83 @@ public class SuggestionAdapter extends ArrayAdapter<Suggestion> {
                     R.layout.list_item, parent, false);
         }
 
-        TextView nameLocationTextView = (TextView) listItemView.findViewById(R.id.nameTextView);
-        nameLocationTextView.setText(currentLocation.getName());
+        // Title View
+        TextView nameTitleTextView = (TextView) listItemView.findViewById(R.id.titleTextView);
+        nameTitleTextView.setText(currentSuggestion.getName());
 
-        TextView descriptionLocationTextView = (TextView)
+        // Description View
+        TextView descriptionTextView = (TextView)
                 listItemView.findViewById(R.id.descriptionTextView);
-        descriptionLocationTextView.setText(currentLocation.getDescription());
+        descriptionTextView.setText(currentSuggestion.getDescription());
 
+        // Web Page view
         TextView webpageTextView = (TextView)
                 listItemView.findViewById(R.id.webpageTextView);
-        webpageTextView.setText(currentLocation.getWebpage());
+        webpageTextView.setText(currentSuggestion.getWebpage());
 
-        TextView addressLocationTextView = (TextView) listItemView.findViewById(R.id.addressTextView);
-        addressLocationTextView.setText(currentLocation.getAddress());
+        // Address View
+        TextView addressTextView = (TextView) listItemView.findViewById(R.id.addressTextView);
+        addressTextView.setText(currentSuggestion.getAddress());
 
-        TextView scheduleLocationTextView = (TextView) listItemView.findViewById(R.id.scheduleTextView);
-        scheduleLocationTextView.setText(currentLocation.getSchedule());
+        // Schedule View
+        TextView scheduleTextView = (TextView) listItemView.findViewById(R.id.scheduleTextView);
+        scheduleTextView.setText(currentSuggestion.getSchedule());
 
-        TextView priceLocationTextView = (TextView) listItemView.findViewById(R.id.priceTextView);
-        priceLocationTextView.setText(currentLocation.getPrice());
+        // Price View
+        TextView priceTextView = (TextView) listItemView.findViewById(R.id.priceTextView);
+        priceTextView.setText(currentSuggestion.getPrice());
 
-        TextView phoneLocationTextView = (TextView) listItemView.findViewById(R.id.phoneTextView);
-        phoneLocationTextView.setText(currentLocation.getPhone());
+        // Contact View
+        TextView phoneTextView = (TextView) listItemView.findViewById(R.id.phoneTextView);
+        phoneTextView.setText(currentSuggestion.getPhone());
 
-        ImageView photoLocationImageView = (ImageView) listItemView.findViewById(R.id.photoImageView);
+        // Image View
+        ImageView photoImageView = (ImageView) listItemView.findViewById(R.id.photoImageView);
 
-        if (currentLocation.hasImage()) {
-            photoLocationImageView.setImageResource(currentLocation.getImageResourceId());
-            photoLocationImageView.setVisibility(View.VISIBLE);
+        // Check if Suggestion has image.
+        if (currentSuggestion.hasImage()) {
+            photoImageView.setImageResource(currentSuggestion.getImageResourceId());
+            photoImageView.setVisibility(View.VISIBLE);
         } else {
-            photoLocationImageView.setVisibility(View.GONE);
+            photoImageView.setVisibility(View.GONE);
         }
 
-        if(currentLocation.hasWebpage()) {
+        // Check if suggestion has web page
+        if(currentSuggestion.hasWebpage()) {
             webpageTextView.setVisibility(View.VISIBLE);
         } else {
             webpageTextView.setVisibility(View.GONE);
         }
 
-        if (currentLocation.hasPrice()) {
-            priceLocationTextView.setVisibility(View.VISIBLE);
+        // Check if suggestion has price
+        if (currentSuggestion.hasPrice()) {
+            priceTextView.setVisibility(View.VISIBLE);
         } else {
-            priceLocationTextView.setVisibility(View.GONE);
+            priceTextView.setVisibility(View.GONE);
         }
 
-        if (currentLocation.hasSchedule()) {
-            scheduleLocationTextView.setVisibility(View.VISIBLE);
+        // Check if suggestion has schedule
+        if (currentSuggestion.hasSchedule()) {
+            scheduleTextView.setVisibility(View.VISIBLE);
         } else {
-            scheduleLocationTextView.setVisibility(View.GONE);
+            scheduleTextView.setVisibility(View.GONE);
         }
 
-        if (currentLocation.hasAddress()) {
-            addressLocationTextView.setVisibility(View.VISIBLE);
+        // Check if suggestion has address
+        if (currentSuggestion.hasAddress()) {
+            addressTextView.setVisibility(View.VISIBLE);
         } else {
-            addressLocationTextView.setVisibility(View.GONE);
+            addressTextView.setVisibility(View.GONE);
         }
 
-        if (currentLocation.hasPhone()) {
-            phoneLocationTextView.setVisibility(View.VISIBLE);
+        // Check if suggestion has contact
+        if (currentSuggestion.hasPhone()) {
+            phoneTextView.setVisibility(View.VISIBLE);
         } else {
-            phoneLocationTextView.setVisibility(View.GONE);
+            phoneTextView.setVisibility(View.GONE);
         }
 
+        // Return list item
         return listItemView;
     }
 

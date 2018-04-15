@@ -14,6 +14,7 @@ import java.util.List;
 public class Entertainment {
     /**
      * Initialize Entertainment list
+     *
      * @param list
      * @param context
      */

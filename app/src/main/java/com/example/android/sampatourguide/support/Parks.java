@@ -14,6 +14,7 @@ import java.util.List;
 public class Parks {
     /**
      * Initialize Parks list
+     *
      * @param list
      * @param context
      */

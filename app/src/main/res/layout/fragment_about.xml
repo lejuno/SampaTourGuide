@@ -8,22 +8,22 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:text="@string/string_about"
-        android:textStyle="bold"
-        android:layout_margin="8dp"
-        android:textSize="21sp"/>
+        android:textSize="21sp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:text="@string/string_about_description"
-        android:layout_margin="8dp"
-        android:textSize="15sp"/>
+        android:textSize="15sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/string_about_description2"
         android:layout_margin="8dp"
-        android:textSize="15sp"/>
+        android:text="@string/string_about_description2"
+        android:textSize="15sp" />
 </LinearLayout>

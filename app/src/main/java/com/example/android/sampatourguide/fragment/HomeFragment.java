@@ -8,16 +8,35 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.example.android.sampatourguide.support.Home;
 import com.example.android.sampatourguide.Other.Suggestion;
 import com.example.android.sampatourguide.Other.SuggestionAdapter;
 import com.example.android.sampatourguide.R;
+import com.example.android.sampatourguide.support.Home;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * HomeFragment
+ * Holds Home History suggestion list
+ */
 public class HomeFragment extends Fragment {
+    /**
+     * Constructor
+     */
+    public HomeFragment() {
+        // Required empty public constructor
+    }
 
+    /**
+     * onCreateView
+     * Initialize Home History List and return the view with parks list.
+     *
+     * @param inflater
+     * @param container
+     * @param savedInstanceState
+     * @return
+     */
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -34,6 +53,12 @@ public class HomeFragment extends Fragment {
         return view;
     }
 
+    /**
+     * Used to set title text
+     *
+     * @param view
+     * @param savedInstanceState
+     */
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);

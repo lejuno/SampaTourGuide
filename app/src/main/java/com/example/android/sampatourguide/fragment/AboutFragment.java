@@ -7,25 +7,30 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
 
-import com.example.android.sampatourguide.Other.Suggestion;
-import com.example.android.sampatourguide.Other.SuggestionAdapter;
 import com.example.android.sampatourguide.R;
-import com.example.android.sampatourguide.support.Culture;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
- * A simple {@link Fragment} subclass.
+ * AboutFragment
+ * Holds About fragment
  */
 public class AboutFragment extends Fragment {
-
+    /**
+     * Constructor
+     */
     public AboutFragment() {
         // Required empty public constructor
     }
 
+    /**
+     * onCreateView
+     * Initialize about fragment.
+     *
+     * @param inflater
+     * @param container
+     * @param savedInstanceState
+     * @return
+     */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -33,6 +38,12 @@ public class AboutFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_about, container, false);
     }
 
+    /**
+     * Used to set title text
+     *
+     * @param view
+     * @param savedInstanceState
+     */
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
