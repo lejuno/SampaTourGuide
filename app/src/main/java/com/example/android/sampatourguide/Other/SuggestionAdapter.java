@@ -17,13 +17,6 @@ import java.util.List;
  */
 public class SuggestionAdapter extends ArrayAdapter<Suggestion> {
 
-    /**
-     * Constructor
-     *
-     * @param context
-     * @param resources
-     * @param suggestionsList
-     */
     public SuggestionAdapter(Context context, int resources, List<Suggestion> suggestionsList) {
         super(context, 0, suggestionsList);
     }
@@ -31,10 +24,6 @@ public class SuggestionAdapter extends ArrayAdapter<Suggestion> {
     /**
      * getView()
      * Build each suggestion as a card view.
-     * @param position
-     * @param convertView
-     * @param parent
-     * @return
      */
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -57,9 +46,9 @@ public class SuggestionAdapter extends ArrayAdapter<Suggestion> {
         descriptionTextView.setText(currentSuggestion.getDescription());
 
         // Web Page view
-        TextView webpageTextView = (TextView)
-                listItemView.findViewById(R.id.webpageTextView);
-        webpageTextView.setText(currentSuggestion.getWebpage());
+        TextView webPageTextView = (TextView)
+                listItemView.findViewById(R.id.webPageTextView);
+        webPageTextView.setText(currentSuggestion.getWebPage());
 
         // Address View
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.addressTextView);
@@ -84,49 +73,35 @@ public class SuggestionAdapter extends ArrayAdapter<Suggestion> {
         if (currentSuggestion.hasImage()) {
             photoImageView.setImageResource(currentSuggestion.getImageResourceId());
             photoImageView.setVisibility(View.VISIBLE);
-        } else {
-            photoImageView.setVisibility(View.GONE);
         }
 
         // Check if suggestion has web page
-        if(currentSuggestion.hasWebpage()) {
-            webpageTextView.setVisibility(View.VISIBLE);
-        } else {
-            webpageTextView.setVisibility(View.GONE);
+        if (currentSuggestion.hasWebPage()) {
+            webPageTextView.setVisibility(View.VISIBLE);
         }
 
         // Check if suggestion has price
         if (currentSuggestion.hasPrice()) {
             priceTextView.setVisibility(View.VISIBLE);
-        } else {
-            priceTextView.setVisibility(View.GONE);
         }
 
         // Check if suggestion has schedule
         if (currentSuggestion.hasSchedule()) {
             scheduleTextView.setVisibility(View.VISIBLE);
-        } else {
-            scheduleTextView.setVisibility(View.GONE);
         }
 
         // Check if suggestion has address
         if (currentSuggestion.hasAddress()) {
             addressTextView.setVisibility(View.VISIBLE);
-        } else {
-            addressTextView.setVisibility(View.GONE);
         }
 
         // Check if suggestion has contact
         if (currentSuggestion.hasPhone()) {
             phoneTextView.setVisibility(View.VISIBLE);
-        } else {
-            phoneTextView.setVisibility(View.GONE);
         }
 
         // Return list item
         return listItemView;
     }
-
-
 }
 

@@ -1,5 +1,4 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -19,28 +18,41 @@
 
     <style name="styleNavHeader">
         <item name="android:textColor">@color/colorNavHeaderAppName</item>
-        <item name="android:textSize">25sp</item>
+        <item name="android:textSize">@dimen/text_navheader_text_size</item>
         <item name="android:textStyle">bold|italic</item>
     </style>
 
     <style name="styleCardTitle">
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">@dimen/text_cardtitle_text_size</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_margin">@dimen/text_cardtitle_text_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
     <style name="styleDescription">
-        <item name="android:textSize">15sp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">@dimen/text_description_text_size</item>
+        <item name="android:layout_marginRight">@dimen/text_description_text_margin_right</item>
+        <item name="android:layout_marginLeft">@dimen/text_description_text_margin_left</item>
+        <item name="android:layout_marginBottom">@dimen/text_description_text_margin_bottom</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
     <style name="styleWorkingHours">
-        <item name="android:textSize">15sp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginBottom">8dp</item>
-        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textSize">@dimen/text_workinghours_text_size</item>
+        <item name="android:layout_marginRight">@dimen/text_workinghours_text_margin_right</item>
+        <item name="android:layout_marginLeft">@dimen/text_workinghours_text_margin_left</item>
+        <item name="android:layout_marginBottom">@dimen/text_workinghours_text_margin_bottom</item>
+        <item name="android:drawablePadding">@dimen/text_workinghours_text_padding</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="styleAboutTextEditor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/text_about_fragment_textview_margin</item>
     </style>
 </resources>

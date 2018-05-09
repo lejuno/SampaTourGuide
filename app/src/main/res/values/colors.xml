@@ -5,4 +5,8 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="colorNavHeaderAppName">#ffff00</color>
+
+    <color name="color_side_nav_bar_center">#009688</color>
+    <color name="color_side_nav_bar_end">#00695C</color>
+    <color name="color_side_nav_bar_start">#4DB6AC</color>
 </resources>

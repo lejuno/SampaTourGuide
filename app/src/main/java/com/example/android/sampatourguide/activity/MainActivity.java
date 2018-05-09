@@ -45,11 +45,11 @@ public class MainActivity extends AppCompatActivity
         //creating fragment object
         Fragment fragment = new HomeFragment();
         //replacing the fragment
-        if (fragment != null) {
-            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.content_frame, fragment);
-            ft.commit();
-        }
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.replace(R.id.content_frame, fragment);
+        ft.commit();
+
+        // Set initial fragment.
         navigationView.setCheckedItem(R.id.nav_home);
 
         drawer.closeDrawer(GravityCompat.START);
@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity
 
     /**
      * Process the item selected from Navication Drawer
+     *
      * @param item
      * @return
      */

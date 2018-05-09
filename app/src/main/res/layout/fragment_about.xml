@@ -6,24 +6,18 @@
     tools:context="com.example.android.sampatourguide.fragment.AboutFragment">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        style="@style/styleAboutTextEditor"
         android:text="@string/string_about"
-        android:textSize="21sp"
+        android:textSize="@dimen/text_about_fragment_title_size"
         android:textStyle="bold" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        style="@style/styleAboutTextEditor"
         android:text="@string/string_about_description"
-        android:textSize="15sp" />
+        android:textSize="@dimen/text_about_fragment_body_size" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        style="@style/styleAboutTextEditor"
         android:text="@string/string_about_description2"
-        android:textSize="15sp" />
+        android:textSize="@dimen/text_about_fragment_body_size" />
 </LinearLayout>
