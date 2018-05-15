@@ -9,7 +9,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.MenuItem;
 
 import com.example.android.sampatourguide.R;
@@ -36,8 +35,6 @@ public class MainActivity extends AppCompatActivity
         // Save the user's current game state
         savedInstanceState.putInt(CURRENT_FRAGMENT_ID, mCurrentFragmentId);
 
-        Log.v("LJN","onSaveInstanceState(" + mCurrentFragmentId + ")");
-
         // Always call the superclass so it can save the view hierarchy state
         super.onSaveInstanceState(savedInstanceState);
     }
@@ -58,7 +55,6 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        Log.v("LJN","onCreate");
         // Check whether we're recreating a previously destroyed instance
         if (savedInstanceState != null) {
             // Restore value of member from saved state
@@ -135,7 +131,7 @@ public class MainActivity extends AppCompatActivity
 
         // Store current fragment id
         mCurrentFragmentId = id;
-        Log.v("LJN","onNavigationItemSelected(" + id + ")");
+
         //creating fragment object
         Fragment fragment = null;
 
@@ -172,6 +168,4 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
-
 }
